@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const span = document.createElement("span");
                 span.textContent = character.name;
                 span.classList.add("character-name");
-            span.dataset.id = character.id;
+                span.dataset.id = character.id;
                 characterBar.appendChild(span);
                 
                 if (!characterVotesMap[character.id]) {
